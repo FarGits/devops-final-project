@@ -1,0 +1,6 @@
+services:
+  web-app:
+    image: ahmadparidhidayat/web-app:latest # Mengambil dari Docker Hub
+    ports:
+      - "80:80"
+    restart: always
